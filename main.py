@@ -64,7 +64,7 @@ logger.info("************** Experiment Name: {} **************".format(model_nam
 # ******************** build model ********************
 logger.info("Create Model ...")
 my_model = getattr(model, configs["model"])
-model = my_model(outc=21, lshc=lshc, pretrained=True)
+model = my_model.CPMHandLimb(outc=21, lshc=lshc, pretrained=True)
 if cuda:
     model = model.cuda(device_ids[0])
     model = nn.DataParallel(model, device_ids=device_ids)

@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torchvision.models as models
-
+from torch.nn import Module
 
 class ConvBlock(nn.Module):
     def __init__(self, in_c, outc):
@@ -30,7 +30,7 @@ class SElayer(nn.Module):
         return x * y.expand_as(x)
 
 
-class Stage(nn.Module):
+class Stage(Module):
     def __init__(self, in_c, outc):
         """
         CNNs for inference at Stage t (t>=2)
