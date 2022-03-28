@@ -1,0 +1,19 @@
+2022-03-23 22:14:37,272:INFO: ************** Experiment Name: EXP_LPM_G1_6 **************
+2022-03-23 22:14:37,272:INFO: Create Model ...
+2022-03-23 22:20:30,133:INFO: ************** Experiment Name: EXP_LPM_G1_6 **************
+2022-03-23 22:20:30,133:INFO: Create Model ...
+2022-03-23 22:21:34,581:INFO: ************** Experiment Name: EXP_LPM_G1_6 **************
+2022-03-23 22:21:34,581:INFO: Create Model ...
+2022-03-23 22:22:14,458:INFO: ************** Experiment Name: EXP_LPM_G1_6 **************
+2022-03-23 22:22:14,458:INFO: Create Model ...
+2022-03-23 22:23:10,540:INFO: ************** Experiment Name: EXP_LPM_G1_6 **************
+2022-03-23 22:23:10,540:INFO: Create Model ...
+2022-03-23 22:23:33,302:INFO: ************** Experiment Name: EXP_LPM_G1_6 **************
+2022-03-23 22:23:33,303:INFO: Create Model ...
+2022-03-23 22:23:36,169:INFO: Total images in training data is 11853
+2022-03-23 22:23:36,169:INFO: Total images in validation data is 1482
+2022-03-23 22:23:36,169:INFO: Total images in testing data is 1482
+2022-03-23 22:23:36,170:INFO: 
+Start training ===========================================>
+2022-03-23 22:23:36,170:INFO: Initial learning Rate: 0.0001
+2022-03-23 22:23:36,170:INFO: Epoch[1/80] ==============>
