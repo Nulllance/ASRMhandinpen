@@ -38,7 +38,10 @@ class HandDataset_LPM(Dataset):
         self.sigma = sigma  # gaussian center heat map sigma
         self.lsh_sigma = lsh_sigma
         self.mode = mode
-        if group == 'G6':
+        if group == 'G20':
+            self.group = groups20
+            self.group_c = 20
+        elif group == 'G6':
             self.group = groups6
             self.group_c = 6
         elif group == 'G1':
@@ -153,7 +156,7 @@ if __name__ == "__main__":
     data_root = '../data_sample/cmuhand'
 
     print('G6 ============>')
-    data = HandDataset_LPM(data_root=data_root, mode='train', group='G6')
+    data = HandDataset_LPM(data_root=data_root, mode='train', group='G20')
     image, label_map, lsh_map, img_name, w, h = data[0]
 
     # ***************** draw Limb map *****************

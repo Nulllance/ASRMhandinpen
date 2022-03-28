@@ -124,7 +124,7 @@ def train():
             # cm_pred   (FloatTensor.cuda) size:(bz,3,21,46,46)
 
             # *************** calculate loss ***************
-            if lshc == 1:       # For G1 only
+            if lshc == 21:       # For G1 only
                 limb_loss = loss.ce_loss(limb_pred, limb_target)
             else:               # For G1 & 6
                 g1_loss = loss.ce_loss(limb_pred[:, :, 0, ...], limb_target[:, :, 0, ...])
